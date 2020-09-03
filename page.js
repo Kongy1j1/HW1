@@ -4,22 +4,21 @@ $(document).ready(function() { // do this when the document is loaded
 	$("#add_contact_space").hide();
 });
 
-$("#dialer").click(function() { // when "button_id" is clicked
-  $("#dial_space").show(); // show the element with ID "element"
-	$("#contact_list_space").hide(); // hide the element with ID "otherElement"
+$("#dialer").click(function() {
+  $("#dial_space").show();
+	$("#contact_list_space").hide();
 	$("#add_contact_space").hide();
 });
 
-$("#contact").click(function() { // when "button_id" is clicked
+$("#contact").click(function() {
   $("#contact_list_space").show();
-  $("#dial_space").hide(); // show the element with ID "element"
-	 // hide the element with ID "otherElement"
+  $("#dial_space").hide();
 	$("#add_contact_space").hide();
 });
 
-$("#addContact").click(function() { // when "button_id" is clicked
+$("#addContact").click(function() {
   $("#add_contact_space").show();
-  $("#dial_space").hide(); // show the element with ID "element"
-	$("#contact_list_space").hide(); // hide the element with ID "otherElement"
+  $("#dial_space").hide();
+	$("#contact_list_space").hide(); 
 
 });
