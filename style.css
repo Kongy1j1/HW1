@@ -1,0 +1,132 @@
+.top_button{
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+  background: lightgrey;
+  text-align:center;
+  transition-duration: 0.4s;
+	border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.top_button:hover {background-color: darkgray;}
+
+#enter {
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+#bar {
+	height: 50px;
+	background-color: lightgrey;
+}
+
+p {
+	height: 20px;
+	font-size: 40px;
+  color: gray;
+	margin-top: 10px;
+	font-family: "Arial";
+}
+
+.numberButton {
+  width: 90px;
+	height: 30px;
+	font-size: 20px;
+  background: lightgrey;
+  text-align:center;
+  transition-duration: 0.4s;
+	border-radius: 3px;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+}
+
+.numberButton:hover {background-color: darkgray;}
+
+#numberPad {
+	width: 380px;
+	height: 300px;
+}
+
+.dial {
+  width: 120px;
+	height: 30px;
+	font-size: 20px;
+  background: lightgrey;
+  text-align:center;
+  transition-duration: 0.4s;
+	border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  margin:15px;
+}
+
+.dial:hover {background-color: darkgray;}
+
+.clear {
+  width: 120px;
+	height: 30px;
+	font-size: 20px;
+  background: lightgrey;
+  text-align:center;
+  transition-duration: 0.4s;
+	border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  margin:15px;
+}
+
+.clear:hover {background-color: darkgray;}
+
+body {
+	margin: 3px;
+	padding: 5px;
+}
+
+#main {
+	padding-left: 60px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+}
+
+#name, #number, #email {
+	width: 400px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+label {
+	font-size: 25px;
+	font-family: "Arial";
+}
+
+.people {
+
+  width: 150px;
+	height: 50px;
+	font-family: "Arial";
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	margin: 5px;
+	display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.people:hover {background-color: darkgray;}
+
+.contacts {
+	width: 450px;
+}
